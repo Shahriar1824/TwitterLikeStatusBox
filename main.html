@@ -11,10 +11,14 @@
 
             req.onreadystatechange = function () {
 
-                if(req.readyState == 4 && req.status == 200)
+                if(req.readyState == 4 && req.status == 200){
+
+                    document.getElementById('show').innerHTML = req.responseText;
+
+                }
             }
 
-            req.open();
+            req.open('GET','process.php',true);
             req.send();
 
         }
@@ -23,8 +27,9 @@
 <body>
     <div id="container">
         <h2>Enter Characters</h2>
-        <textarea cols="30" rows="5"></textarea><br/>
+        <textarea cols="30" rows="5" onkeyup="ajax();"></textarea><br/>
         <input type="submit" value="Submit">
+        <div id="show"></div>
     </div>
 </body>
 </html>
