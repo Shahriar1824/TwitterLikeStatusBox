@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfac4449-a9a5-4026-8aa8-d00659a1dadd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process.php" afterPath="$PROJECT_DIR$/process.php" />
     </list>
     <ignored path="TwitterLikeStatusBox.iws" />
@@ -48,9 +46,11 @@
       <file leaf-file-name="process.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="155" selection-end="155" vertical-scroll-proportion="0.2045728" vertical-offset="0" max-vertical-offset="831">
+            <state line="18" column="22" selection-start="324" selection-end="324" vertical-scroll-proportion="0.36823106" vertical-offset="0" max-vertical-offset="831">
               <folding>
                 <element signature="e#6#99#0" expanded="true" />
+                <marker date="1449603388188" expanded="true" signature="208:239" placeholder="..." />
+                <marker date="1449603388188" expanded="true" signature="334:366" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -216,9 +216,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/process.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="155" selection-end="155" vertical-scroll-proportion="0.2045728" vertical-offset="0" max-vertical-offset="831">
+        <state line="18" column="22" selection-start="324" selection-end="324" vertical-scroll-proportion="0.36823106" vertical-offset="0" max-vertical-offset="831">
           <folding>
             <element signature="e#6#99#0" expanded="true" />
+            <marker date="1449603388188" expanded="true" signature="208:239" placeholder="..." />
+            <marker date="1449603388188" expanded="true" signature="334:366" placeholder="..." />
           </folding>
         </state>
       </provider>

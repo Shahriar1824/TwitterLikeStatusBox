@@ -8,7 +8,17 @@
 
 if(isset($_GET['value'])){
 
-    echo $chars = $_GET['value'];
+    $chars = $_GET['value'];
+
+    $len = strlen($chars);
+
+    echo "<h2 style='color: blueviolet; float: right'>Character write so far:- ".$len."</h2>";
+
+    if($len>100){
+
+        echo "<br><br><p style='color:#ff0000; font-size: 17px; '>You are crossing the limit!</p>";
+
+    }
 }
 
 ?>
