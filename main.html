@@ -5,7 +5,7 @@
     <title>Twitter Like Status Box</title>
     <link rel="stylesheet" type="text/css" href="main.css" >
     <script>
-        function ajax(){
+        function ajax(chars){
 
             var req = new XMLHttpRequest();
 
@@ -18,7 +18,7 @@
                 }
             }
 
-            req.open('GET','process.php',true);
+            req.open('GET','process.php?value='+chars,true);
             req.send();
 
         }
@@ -27,7 +27,7 @@
 <body>
     <div id="container">
         <h2>Enter Characters</h2>
-        <textarea cols="30" rows="5" onkeyup="ajax();"></textarea><br/>
+        <textarea cols="30" rows="5" onkeyup="ajax(this.value);"></textarea><br/>
         <input type="submit" value="Submit">
         <div id="show"></div>
     </div>
