@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
+    <meta charset="utf-8">
     <title>Twitter Like Status Box</title>
-    <link href="main.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css" >
+    <script>
+        function ajax(){
+
+            var req = new XMLHttpRequest();
+
+            req.onreadystatechange = function () {
+
+                if(req.readyState == 4 && req.status == 200)
+            }
+
+            req.open();
+            req.send();
+
+        }
+    </script>
 </head>
 <body>
     <div id="container">
